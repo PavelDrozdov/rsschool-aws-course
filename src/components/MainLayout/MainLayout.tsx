@@ -12,6 +12,9 @@ function Copyright() {
       <Link color="inherit" href="https://material-ui.com/" underline="hover">
         My Store
       </Link>{" "}
+    <Link color="inherit" href="https://github.com/rolling-scopes-school/paveldrozdov-AWSDEVELOPER2024Q2" underline="hover">
+        My Repo
+    </Link>{" "}
       {new Date().getFullYear()}
       {"."}
     </Typography>
