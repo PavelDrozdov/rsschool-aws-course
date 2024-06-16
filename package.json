@@ -11,8 +11,8 @@
     "test:coverage": "vitest run --coverage",
     "lint": "eslint --ignore-path .gitignore --fix src",
     "prettier": "prettier src --write",
-    "deploy" : "npm run build && npm --prefix ./aws-sdk run deploy",
-    "destroy" : "npm --prefix ./aws-sdk run destroy"
+    "deploy" : "npm run build && npm --prefix aws-cdk run deploy",
+    "destroy" : "npm --prefix aws-cdk run destroy"
   },
   "dependencies": {
     "@emotion/react": "^11.9.3",
