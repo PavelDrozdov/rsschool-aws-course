@@ -4,4 +4,4 @@ import {  App } from 'aws-cdk-lib';
 import { AwsSdkStack } from '../lib/aws-sdk-stack';
 
 const app = new App();
-new AwsSdkStack(app, 'AwsSdkStack');
+new AwsSdkStack(app, 'rs-frontend-app');
